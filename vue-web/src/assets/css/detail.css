@@ -1,0 +1,87 @@
+body,div,h1,h2,h3,ul,li,ol,hr,p,span{margin:0;padding: 0;list-style: none;}
+.DetailContent{ background: #ffffff}
+.tag{ width: 1280px; margin: 15px auto; text-align: left; height: 50px}
+.tag label{ padding: 7px 20px; color: #282828;float: left;}
+.tag li{ padding: 7px 20px; border:1px solid #282828; color: #282828;float: left; margin-left: 10px;}
+hr{ margin:0; padding:0; border-bottom: none; border-top: 1px solid #E2E2E2;}
+.img{
+  width: 1280px; height: 113px; margin: 20px 0;
+}
+.zan{ width:150px; line-height: 20px; padding:15px 40px; background: #FFE300; color:#282828; border-radius: 60px; margin: 20px auto; cursor: pointer;}
+.zan i{ font-size: 20px}
+.autorInfo{ width: 1280px; height: 132px; margin: 0px auto}
+.autorInfo .leftbox{ padding: 13px 30px 20px 0;width: 960px; height: 132px; border-right:1px solid #E2E2E2;float: left;}
+.autorInfo .leftbox .title{ width: 930px; height: 40px; text-align: left; font-size: 20px; color:black; font-weight: 600; line-height:40px}
+.autorInfo .leftbox .time{ width: 930px; height: 32px; text-align: left; font-size: 12px; color:gray; line-height:30px}
+.autorInfo .leftbox .time div{float:right}
+.autorInfo .rightbox{ padding: 13px 0 20px 30px;width: 260px; height: 132px; float: left;}
+.autorInfo .rightbox .picture{ padding: 13px 0 20px 0;width: 80px; height: 80px; float: left;}
+.autorInfo .rightbox .picture img{ border-radius: 40px; }
+.autorInfo .rightbox .introduce{ padding-left:10px; width: 150px; height: 80px; float: left;}
+.autorInfo .rightbox .introduce .name{ width: 150px; height: 40px; text-align: left; font-size: 20px; color:black; font-weight: 600; line-height:40px}
+.autorInfo .rightbox .introduce .addr{ width: 150px; height: 30px; text-align: left; font-size: 12px; color:gray; line-height:30px}
+.el-button{ padding:10px 15px !important; float: left;}
+
+/*****************************/
+.detail_content{ width: 800px; min-height: 500px; max-height: none; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; margin: 0 auto; text-align: left;line-height: 32px; font-size: 16px;}
+.detail_content p{word-wrap: break-word; margin: 0 auto;}
+.detail_content span{text-align: left; word-wrap: break-word; margin: 0 auto;}
+/******************************/
+.box{ background: #F4F4F4}
+.bottombox{ width:1290px; margin:0 auto; padding:20px 0}
+.bottombox .leftbox{ width:270px; float: left; }
+.bottombox .leftbox .autor{ width:270px; float: left; background-color: #ffffff; padding:10px}
+.bottombox .leftbox .autor .picture{ padding: 13px 0 20px 0;width: 80px; height: 80px; float: left; margin-left:90px }
+.bottombox .leftbox .autor .picture img{ border-radius: 40px; }
+.bottombox .leftbox .autor .introduce{width: 250px; height: 120px; float: left; margin-top: 20px}
+.bottombox .leftbox .autor .introduce .name{ width: 250px; height: 40px; text-align: center; font-size: 20px; color:black; font-weight: 600; line-height:40px}
+.bottombox .leftbox .autor .introduce .addr{ width: 250px; height: 30px; text-align: center; font-size: 12px; color:gray; line-height:30px}
+.bottombox .leftbox .autor .introduce .buttom{ width: 170px; height: 50px; margin-left:60px; font-size: 12px; color:gray; line-height:30px}
+.bottombox .rightbox{ width:1000px; float: left; margin-left: 20px; }
+.picbox{ width: 100%; height: 226px;}
+.picbox li{ width: 240px; height: 226px; float: left; box-shadow:1px 1px 2px #fafafa; background: #ffffff; margin-right: 10px; border-radius: 5px;}
+.picbox li img{ width: 240px; height: 182px; border-radius: 5px 5px 0 0; float: left;}
+.picbox li span{ width: 200px; height: 40px; text-align: left; padding-left: 20px; line-height: 40px; float: left;}
+.el-tabs__header{ width: 990px}
+.el-tabs__nav-scroll{padding:0 20px; width: 990px; background: #ffffff; border-radius: 5px; box-shadow: 1px 1px 2px #fafafa; line-height: 50px; font-size: 16px; height: 50px;}
+.el-tabs__nav-wrap::after{ background: none !important;}
+.leavemsg{
+  width: 990px; min-height: 200px; max-height: none; overflow: hidden;
+  background: #ffffff; margin: 10px 0; border-radius: 5px; box-shadow: 1px 1px 2px #fafafa
+}
+.comment{ width:990px; height: 130px; padding:20px; float: left;}
+.comment .el-input{ width:970px; height: 30px; padding:0 20px; float: left; text-align: left}
+.comment button{ padding:0 30px; float: right; text-align: center; background: #FFE300; margin-top: 20px; border:none}
+.Commentary{
+  width:930px; min-height: 50px; max-height: none; overflow: hidden; margin:30px
+}
+.Commentary .totle{ width:930px; height: 30px;float: left; text-align: left;}
+.Commentary .abox{ 
+  width:930px; min-height: 50px; max-height:none; overflow: hidden; float: left; 
+  text-align: left; margin: 30px 0; padding-bottom: 30px; border-bottom: 1px solid #E2E2E2
+}
+.Commentary .abox .pic{ width:60px; height: 60px; float: left;border-radius: 30px; background-color: #282828}
+.Commentary .abox .pic img{ width:60px; height: 60px; border-radius: 30px;}
+.Commentary .abox .rbox{ width:860px; margin-left: 10px; float: left;}
+.Commentary .abox .rbox .name{height:30px; line-height: 30px; width:860px; float: left; font-weight: 600; font-size: 14px; color:#282828}
+.Commentary .abox .rbox .cont{ width:860px; float: left; height:24px; line-height: 24px; font-size: 12px; color:#444444}
+.Commentary .abox .rbox .time{ width:860px; float: left; font-size: 12px; color:gray}
+.Commentary .abox .rbox .time span{float: right;}
+
+.Commentary .abox .rbox .comment1{ width:860px; height: 85px; margin:20px 0 0 0; float: left; padding:0 }
+.Commentary .abox .rbox .comment1 .el-input{ width:860px; height: 40px; float: left; text-align: left}
+.Commentary .abox .rbox .comment1 button{ 
+padding:0 30px; float: right; text-align: center; background: #FFE300; margin-top: 10px; border:none;
+}
+.likemore{ width: 1000px; height: 300px;}
+.likemore .title{ width: 1000px; height: 40px; text-align: left; line-height: 40px;}
+.morbox{
+  width: 235px; box-shadow: 1px 1px 2px #fafafa; border-radius: 5px; background-color: #ffffff; 
+  margin:0 15px 20px 0; height: 326px;float: left;
+}
+.morbox img{  width: 235px; height: 176px;}
+.morbox .title{  width: 210px; height: 40px; font-size: 14px; font-weight: 600; text-align: left; color: #282828}
+.morbox .time{  width: 210px; height: 30px; font-size: 12px; text-align: left; color: #444444}
+.morbox .grey{  width: 210px; height: 40px; font-size: 12px;text-align: left; color: gray; border-bottom: 1px solid #fafafa}
+.morbox .autor{  width: 210px; height: 40px; font-size: 12px; text-align: left; color: gray; line-height: 40px}
+

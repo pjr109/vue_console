@@ -1,0 +1,21 @@
+  .el-header{
+    background-color: #FFE300;
+    color: #282828;
+    text-align: center;
+    height: 60px;
+  }
+  .el-footer {
+    background-color: #282828;
+    color: #666666;
+    text-align: center;
+    height: 230px !important;
+  }
+  .el-main {
+    background-color: #F4F4F4;
+    color: #333;
+    text-align: center;
+    min-height: 160px;
+    max-height: none;
+    overflow: hidden;
+    padding:0 !important;
+  }

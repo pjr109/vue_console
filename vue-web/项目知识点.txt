@@ -1,0 +1,25 @@
+style 中加入scoped域即可分别运用各自域里面的样式
+
+vue cli 命令
+Install:
+npm install -g @vue/cli
+# OR
+yarn global add @vue/cli
+
+Create a project:
+vue create my-project
+# OR
+vue ui
+
+图片遍历循环断时候，因为img是一种资源，所以使用的时候需要先引进，引进断方式有两种，一种是import，一种是require
+
+jsonplaceholder.typicode.com//免费接口
+
+钩子函数：页面加载之前请求处理数据
+created (){
+  this.$http.get(url).then((data) =>{
+	console.log(data);
+  })
+}
+
+传引用的时候，操作一个地方，全局都会改变,传值则不会

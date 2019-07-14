@@ -1,0 +1,83 @@
+{
+  "aboutpros":[{
+    "url":"./static/img/l1.png",
+    "title": "果麦文化《中国民间故事集》",
+    "ecod": "插画-商业插画",
+    "see":3596,
+    "msg":25,
+    "admire":9999,
+    "author":"花月",
+    "time":"2019-01-11"
+  },{
+    "url":"./static/img/l2.png",
+    "title": "果麦文化《中国民间故事集》",
+    "ecod": "插画-商业插画",
+    "see":3596,
+    "msg":25,
+    "admire":9999,
+    "author":"花月",
+    "time":"刚刚"
+  },{
+    "url":"./static/img/l3.png",
+    "title": "果麦文化《中国民间故事集》",
+    "ecod": "插画-商业插画",
+    "see":3596,
+    "msg":25,
+    "admire":9999,
+    "author":"花月",
+    "time":"42分钟以前"
+  },{
+    "url":"./static/img/l4.png",
+    "title": "果麦文化《中国民间故事集》",
+    "ecod": "插画-商业插画",
+    "see":3596,
+    "msg":25,
+    "admire":9999,
+    "author":"花月",
+    "time":"3个月以前"
+  }],
+  "aboutpro":[
+    {"url":"../static/img/d01.jpg", "title":"2020鼠年新春贺图"},
+    {"url":"../static/img/d02.jpg", "title":"2020鼠年新春贺图"},
+    {"url":"../static/img/d03.jpg", "title":"2020鼠年新春贺图"},
+    {"url":"../static/img/d04.jpg", "title":"2020鼠年新春贺图"}
+  ],
+  "aboutpro1":[
+    {"url":"../static/img/d03.jpg", "title":"2020鼠年新春贺图"},
+    {"url":"../static/img/d02.jpg", "title":"2020鼠年新春贺图"},
+    {"url":"../static/img/c03.jpg", "title":"2020鼠年新春贺图"}
+  ],
+  "ggao":"../static/img/guangg.jpg",
+  "detailcontent":"<p><br/>Foodography®(广州总部)电商品牌服务机构成立于2015年，我们专注于电商产品摄影视觉升级服务。<br/><br/>2017年初Foodography®(上海分部)成立，它专注于餐饮/美食为主摄影服务。截止至2019年，Foodography®全网累计1000W人气的电商摄影团队。<br/><br/>服务过客户：麦当劳 / 迪士尼 / 天猫 / 轩尼诗 / 小熊电器 / 小米 / BRUNO / 雀巢咖啡 / 达能 / Godiva歌蒂梵 / TWG / 无穷食品 / SKG / 九阳 / 苏泊尔 / 安吉尔 / 春纪 / 丸美 / 法兰琳卡 / 广州酒家 / 三只松鼠 / 简爱酸奶 / OPPO / VIVO / 美图手机 / 罗曼牙刷等品牌。<br/><br/></p><span><img src='../static/img/d1.jpg'/><br/><br/><img src='../static/img/d2.jpg'/><br/><br/><img src='../static/img/d3.jpg'/><br/><br/><img src='../static/img/d4.jpg'/><br/><br/><img src='../static/img/d5.jpg'/><br/><br/><img src='../static/img/d6.jpg'/><br/><br/><img src='../static/img/d7.jpg'/><br/><br/><img src='../static/img/d8.jpg'/><br/><br/><img src='../static/img/d9.jpg'/><br/><br/><img src='../static/img/d10.jpg'/></span>",
+  "comment":[
+    {
+      "url":"../static/img/d01.jpg",
+      "name":"万万忠实粉丝",
+      "content":"大大，AE 我导出为啥每次都 400KB",
+      "time":"42分钟前",
+      "zan":0,
+      "isok":false
+    },{
+      "url":"../static/img/d02.jpg",
+      "name":"钟伟离",
+      "content":"太萌了！！！！！！！！！！！！！！！！！！！！！！！！！",
+      "time":"42分钟前",
+      "zan":0,
+      "isok":false
+    },{
+      "url":"../static/img/d03.jpg",
+      "name":"李丽华",
+      "content":"超级无敌可爱啊啊啊啊啊啊",
+      "time":"42分钟前",
+      "zan":0,
+      "isok":false
+    },{
+      "url":"../static/img/d04.jpg",
+      "name":"大庆或",
+      "content":"我是一只小猫咪，你看不到我，不关我事~",
+      "time":"42分钟前",
+      "zan":0,
+      "isok":false
+    }
+  ]
+}
