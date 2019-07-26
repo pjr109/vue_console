@@ -1,0 +1,58 @@
+npm install vue-cli -g  //安装vue-cli  淘宝cnpm镜像源更快
+vue -V  //查看脚手架工具是否安装好了
+vue init webpack  //初始化目录下载模板。。。
+npm install //安装package.json 中的依赖包
+npm run dev //测试依赖包打好了没，项目构建是否完成
+
+html,body,#app{
+height:100%;padding:0px;margin:0px;
+}
+
+npm install element-ui --save //安装element  *因为生产环境中也需要用，所以加个--save
+
+import ElementUI from 'element-ui'    //引用elementui
+import 'element-ui/lib/theme-default/index.css'   //引入css央视
+
+Vue.use(ElementUI)//vue全局使用elementui
+
+Axios从远端读取数据
+1、安装axios
+npm install axios --save //注意要--save，因为在生产环境中也需要使用
+import axios from 'axios'; // 引入axios
+axios.get().then(response=>{
+console.log(response);
+}).catch(error=>{
+console.log(error);
+})
+
+打包注意事项：
+修改 assetsPublicPath 
+在config/index.js里面，有个 assetsPublicPath 属性，源码是‘/’，修改成‘./’，加个点
+assetsPublicPath: './',
+二、路由模式将histroy改成hash模式，起初 mode:'history'
+const router = new Router({
+base: '/',
+mode: 'hash',
+routes: ROUTES
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
